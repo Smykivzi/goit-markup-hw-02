@@ -1,9 +1,3 @@
-body {
-	font-family: "Roboto", sans-serif, "Raleway", sans-serif;
-	font-weight: 400;
-	background: var(--white-pure-color);
-	color: var(--main-color);
-}
 :root {
 	--main-color: #2e2f42;
 	--accent-color: #434455;
@@ -12,6 +6,12 @@ body {
 	--white-second-color: #e7e9fc;
 	--blue-first-color: #4d5ae5;
 	--blue-second-color: #404bbf;
+}
+body {
+	font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+	font-weight: 400;
+	background: var(--white-pure-color);
+	color: var(--main-color);
 }
 .link {
 	text-decoration: none;
@@ -70,6 +70,9 @@ body {
 }
 
 /* Hero section */
+.hero {
+	background: var(--main-color);
+}
 
 .hero-title {
 	font-size: 56px;
@@ -77,9 +80,9 @@ body {
 	text-align: center;
 	letter-spacing: 0.02em;
 	color: var(--white-pure-color);
-	background: var(--main-color);
 }
 .hero-btn {
+	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	display: flex;
@@ -150,8 +153,9 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	text-align: center;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.02em;
 	color: var(--accent-color);
+	font-size: 16px;
 }
 .footer-logo {
 	font-family: "Raleway";
